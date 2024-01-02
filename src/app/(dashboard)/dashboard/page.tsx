@@ -1,6 +1,6 @@
 "use client";
+import { OrganizationList, useUser } from "@clerk/nextjs";
 import React from "react";
-import { OrganizationList, UserButton, useUser } from "@clerk/nextjs";
 
 const DashboardPage: React.FC = (props) => {
 	const { user } = useUser();
